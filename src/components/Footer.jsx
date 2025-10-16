@@ -50,61 +50,51 @@ const Footer = () => {
 
           <motion.div whileInView={{opacity:100, y:0}} initial={{opacity:0, y:50}} transition={{duration:1.0, delay:0.2}}>
             <ul className='flex flex-col justify-center items-center w-[100px] h-fit'>
-              <li>About</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
+              <li className='font-bold text-lg'>About</li>
+              <li>About Me</li>
+              <li>My Journey</li>
+              <li>My Mission</li>
             </ul>
           </motion.div>
 
           <motion.div whileInView={{opacity:100, y:0}} initial={{opacity:0, y:50}} transition={{duration:1.0, delay:0.4}}>
             <ul className='flex flex-col justify-center items-center w-[100px] h-fit'>
-              <li>Certifications</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
+              <li className='font-bold text-lg'>Certifications</li>
+              <li>OSCP</li>
+              <li>PJPT</li>
+              <li>Network+</li>
+              <li>Security+</li>
             </ul>
           </motion.div>
 
           <motion.div whileInView={{opacity:100, y:0}} initial={{opacity:0, y:50}} transition={{duration:1.0, delay:0.6}}>
             <ul className='flex flex-col justify-center items-center w-[100px] h-fit'>
-              <li>Experience</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
+              <li className='font-bold text-lg'>Experience</li>
+              <li>Defcon</li>
+              <li>AWS</li>
+              <li>GDSC</li>
+              <li>Noob 4rMy</li>
+              <li>FireCompass</li>
             </ul>
           </motion.div>
 
           <motion.div whileInView={{opacity:100, y:0}} initial={{opacity:0, y:50}} transition={{duration:1.0, delay:0.8}}>
             <ul className='flex flex-col justify-center items-center w-[100px] h-fit'>
-              <li>Gallery</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
+              <li className='font-bold text-lg'>Gallery</li>
+              <li>College</li>
+              <li>Interviews</li>
+              <li>Tech</li>
+              <li>Teachings</li>
             </ul>
           </motion.div>
 
           <motion.div whileInView={{opacity:100, y:0}} initial={{opacity:0, y:50}} transition={{duration:1.0, delay:1}}>
             <ul className='flex flex-col justify-center items-center w-[100px] h-fit'>
-              <li>Blog</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
+              <li className='font-bold text-lg'>Blog</li>
+              <li>Latest</li>
+              <li>Problems</li>
+              <li>Experiences</li>
+              <li>Reviews</li>
             </ul>
           </motion.div>
         </div>

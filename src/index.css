@@ -188,10 +188,6 @@ li:hover {
 h1 {
   font-size: 56px;
   font-weight: 600;
-  /* letter-spacing: -3px; */
-  /* line-height: 1.2; */
-  /* text-align: center; */
-  /* margin: 100px 0; */
 }
 
 h2 {
@@ -240,6 +236,10 @@ section {
   margin-top: 0.2em;
   margin-bottom: 0.2em;
   cursor: pointer;
+}
+
+.bg1{
+  background: url("https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center/cover;
 }
 
 /* --primary-100:#0D6E6E;

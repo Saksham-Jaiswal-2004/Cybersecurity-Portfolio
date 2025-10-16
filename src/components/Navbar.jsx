@@ -1,23 +1,21 @@
-import React from "react";
+// import React from "react";
 import { Link } from "react-router-dom";
 import "../index.css"
 
 const Navbar = () => {
   return (
-    <div className='fixed h-fit bg-transparent w-screen p-3 z-50'>
+    <div className='fixed h-fit bg-transparent backdrop-blur-md w-screen p-3 z-50'>
       <nav className="flex justify-between mx-6">
         <div>
-          <Link href="/" className="logo text-2xl">Mohan</Link>
+          <Link href="/" className="logo text-2xl">Sahil</Link>
         </div>
 
         <div className="flex">
           <ul className="flex gap-8 mx-8">
             <li><Link to="/" className="link">Home</Link></li>
             <li><Link to="/about" className="link">About</Link></li>
-            <li><Link to="/certifications" className="link">Certifications</Link></li>
             <li><Link to="/experience" className="link">Experience</Link></li>
-            <li><Link to="/gallery" className="link">Gallery</Link></li>
-            <li><Link to="/blog" className="link">Blog</Link></li>
+            <li><Link to="/projects" className="link">Projects</Link></li>
           </ul>
   
           <div className="flex mx-6 gap-8">

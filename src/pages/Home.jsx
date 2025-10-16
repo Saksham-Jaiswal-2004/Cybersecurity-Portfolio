@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -67,10 +67,10 @@ const Home = () => {
   
           <div className="hero__content flex flex-col">
             <div className="hero__headline">
-              <span className='md:text-7xl text-3xl'>Mohan Ganesh Babu Pothala</span>
+              <span className='md:text-7xl text-3xl'>Sahil Sujit Singh</span>
             </div>
             <div className="hero__sub">
-              <span className='md:text-2xl text-sm'>Cybersecurity Expert | Protecting Digital Frontiers</span>
+              <span className='md:text-xl text-sm'>Cybersecurity Enthusiast | Developer</span>
             </div>
           </div>
         </div>
@@ -83,7 +83,6 @@ const Home = () => {
       <Blank/>
       <Hiw/>
       <Banner/>
-      <Gallery/>
     </div>
   )
 }

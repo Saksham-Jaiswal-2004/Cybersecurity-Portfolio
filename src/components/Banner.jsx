@@ -56,8 +56,8 @@ function ParallaxText({ children, baseVelocity = 100 }) {
 export default function App() {
   return (
     <section>
-      <ParallaxText baseVelocity={-5}>Mohan Ganesh Babu Pothala</ParallaxText>
-      <ParallaxText baseVelocity={5}>Cyber Security Expert</ParallaxText>
+      <ParallaxText baseVelocity={-5}>Sahil Sujit Singh</ParallaxText>
+      <ParallaxText baseVelocity={5}>Cyber Security Enthusiast</ParallaxText>
     </section>
   );
 }

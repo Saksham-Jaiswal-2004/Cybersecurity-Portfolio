@@ -10,7 +10,6 @@ import Certifications from "./pages/Certifications";
 import Experience from "./pages/Experience";
 import Gallery from "./pages/Gallery";
 import Blog from "./pages/Blog";
-import Error from "./pages/Error";
 
 function App() {
   return (

@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
 }
 
+.link {
+  cursor: pointer;
+}
+
 .navbar, .button {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;

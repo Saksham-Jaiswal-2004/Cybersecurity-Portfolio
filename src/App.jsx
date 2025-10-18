@@ -24,7 +24,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>
-      <CTA/>
+      {/* <CTA/> */}
       <Footer />
     </div>
   )

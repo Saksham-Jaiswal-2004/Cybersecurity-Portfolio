@@ -58,7 +58,7 @@ const Home = () => {
 
   return (
     <div>
-      <div className='h-screen w-full container hero z-1'>
+      <div className='h-screen w-full container hero z-1' id='home'>
         <div className="hero__inner">
           <div className="hero__images">
             <img src="https://cdn.pixabay.com/photo/2017/12/26/21/19/circle-3041437_1280.jpg" alt="" className="hero__image opacity-90" />

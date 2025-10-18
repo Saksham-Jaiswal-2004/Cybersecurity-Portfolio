@@ -11,20 +11,20 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className='h-fit p-8 pb-0 bg-[#161616] flex flex-col flex-wrap'>
+    <div className='h-fit p-8 pb-0 bg-[#161616] flex flex-col flex-wrap' id='footer'>
       <div className='flex flex-wrap h-fit'>
         <div className='flex flex-wrap justify-start h-fit md:w-1/4 w-full my-1'>
           <div className=' flex flex-col mx-4 text-left h-fit w-full'>
-              <motion.p whileInView={{opacity:100, y:0}} initial={{opacity:0, y:10}} transition={{duration:1}} className='logo my-3 md:text-4xl tracking-tight text-3xl'>Mohan Ganesh</motion.p>
+              <motion.p whileInView={{opacity:100, y:0}} initial={{opacity:0, y:10}} transition={{duration:1}} className='logo my-3 md:text-4xl tracking-tight text-3xl'>Sahil Sujit Singh</motion.p>
   
               <motion.div whileInView={{opacity:100, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1}} className='flex items-center justify-start'>
-                <a href="https://wa.me/" target="_blank" rel="noopener noreferrer"><FaPhoneSquareAlt className='text-xl rounded-xl'/></a>
-                <p className="my-4 text-lg max-flex:text-base"><a href="https://wa.me/" target="_blank" rel="noopener noreferrer"> - 11111-11111</a></p>
+                <a href="https://wa.me/919115914592" target="_blank" rel="noopener noreferrer"><FaPhoneSquareAlt className='text-xl rounded-xl'/></a>
+                <p className="my-4 text-lg max-flex:text-base"><a href="https://wa.me/919115914592" target="_blank" rel="noopener noreferrer"> - +91-91159-14592</a></p>
               </motion.div>
   
               <motion.div whileInView={{opacity:100, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1.4}} className='flex items-center justify-start'>
-                <a href="mailto:" target="_blank" rel="noopener noreferrer"><MdEmail className='text-xl'/></a>
-                <p className="my-4 text-lg max-flex:text-base"><a href="mailto:" target="_blank" rel="noopener noreferrer"> - abcdexample@gmail.com</a></p>
+                <a href="mailto:sahilsingh161004@gmail.com" target="_blank" rel="noopener noreferrer"><MdEmail className='text-xl'/></a>
+                <p className="my-4 text-lg max-flex:text-base"><a href="mailto:sahilsingh161004@gmail.com" target="_blank" rel="noopener noreferrer"> - sahilsingh161004@gmail.com</a></p>
               </motion.div>
           
             <div className='my-4 flex flex-wrap items-center justify-start gap-4 text-4xl max-flex:text-base: w-full'>
@@ -38,7 +38,7 @@ const Footer = () => {
 
         <div className='flex flex-wrap justify-center gap-10 h-fit md:w-3/4 w-full md:p-10 p-4 footerLink'>
           <motion.div whileInView={{opacity:100, y:0}} initial={{opacity:0, y:50}} transition={{duration:1.0, delay:0}}>
-            <ul className='flex flex-col justify-center items-center w-[110px] h-fit'>
+            <ul className='flex flex-col justify-center items-start w-[110px] h-fit'>
               <li className='font-bold text-lg'>Home</li>
               <li>Features</li>
               <li>Benefits</li>
@@ -49,7 +49,7 @@ const Footer = () => {
           </motion.div>
 
           <motion.div whileInView={{opacity:100, y:0}} initial={{opacity:0, y:50}} transition={{duration:1.0, delay:0.2}}>
-            <ul className='flex flex-col justify-center items-center w-[100px] h-fit'>
+            <ul className='flex flex-col justify-center items-start w-[100px] h-fit'>
               <li className='font-bold text-lg'>About</li>
               <li>About Me</li>
               <li>My Journey</li>
@@ -57,18 +57,8 @@ const Footer = () => {
             </ul>
           </motion.div>
 
-          <motion.div whileInView={{opacity:100, y:0}} initial={{opacity:0, y:50}} transition={{duration:1.0, delay:0.4}}>
-            <ul className='flex flex-col justify-center items-center w-[100px] h-fit'>
-              <li className='font-bold text-lg'>Certifications</li>
-              <li>OSCP</li>
-              <li>PJPT</li>
-              <li>Network+</li>
-              <li>Security+</li>
-            </ul>
-          </motion.div>
-
           <motion.div whileInView={{opacity:100, y:0}} initial={{opacity:0, y:50}} transition={{duration:1.0, delay:0.6}}>
-            <ul className='flex flex-col justify-center items-center w-[100px] h-fit'>
+            <ul className='flex flex-col justify-center items-start w-[100px] h-fit'>
               <li className='font-bold text-lg'>Experience</li>
               <li>Defcon</li>
               <li>AWS</li>
@@ -79,29 +69,19 @@ const Footer = () => {
           </motion.div>
 
           <motion.div whileInView={{opacity:100, y:0}} initial={{opacity:0, y:50}} transition={{duration:1.0, delay:0.8}}>
-            <ul className='flex flex-col justify-center items-center w-[100px] h-fit'>
-              <li className='font-bold text-lg'>Gallery</li>
+            <ul className='flex flex-col justify-center items-start w-[100px] h-fit'>
+              <li className='font-bold text-lg'>Projects</li>
               <li>College</li>
               <li>Interviews</li>
               <li>Tech</li>
               <li>Teachings</li>
             </ul>
           </motion.div>
-
-          <motion.div whileInView={{opacity:100, y:0}} initial={{opacity:0, y:50}} transition={{duration:1.0, delay:1}}>
-            <ul className='flex flex-col justify-center items-center w-[100px] h-fit'>
-              <li className='font-bold text-lg'>Blog</li>
-              <li>Latest</li>
-              <li>Problems</li>
-              <li>Experiences</li>
-              <li>Reviews</li>
-            </ul>
-          </motion.div>
         </div>
       </div>
 
       <div className='w-full flex flex-col justify-center items-center'>
-        <p className='md:text-lg text-[8px] m-0'>© 2024 Mohan Ganesh | All Rights Reserved | Made with ♥ by <a href="https://www.sakshamjaiswal.netlify.app" target='__blank'>Saksham Jaiswal</a></p>
+        <p className='md:text-lg text-[8px] m-0'>© 2024 Sahil Singh | All Rights Reserved | Made with ♥ by <a href="https://www.sakshamjaiswal.netlify.app" target='__blank'>Saksham Jaiswal</a></p>
       </div>
     </div>
   )

@@ -20,6 +20,7 @@
     "react-icons": "^5.4.0",
     "react-router": "^7.1.0",
     "react-router-dom": "^7.1.0",
+    "react-scroll": "^1.9.3",
     "smooth-scrollbar": "^8.8.4"
   },
   "devDependencies": {

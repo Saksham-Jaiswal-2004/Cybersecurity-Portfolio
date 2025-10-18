@@ -1,6 +1,6 @@
 // import React from "react";
-import { Link } from "react-router-dom";
 import "../index.css"
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   return (
@@ -12,15 +12,15 @@ const Navbar = () => {
 
         <div className="flex">
           <ul className="flex gap-8 mx-8">
-            <li><Link to="/" className="link">Home</Link></li>
-            <li><Link to="/about" className="link">About</Link></li>
-            <li><Link to="/experience" className="link">Experience</Link></li>
-            <li><Link to="/projects" className="link">Projects</Link></li>
+            <li><Link to="home" smooth={true} duration={500} offset={-100} className="link">Home</Link></li>
+            <li><Link to="experience" smooth={true} duration={500} offset={-100} className="link">Experience</Link></li>
+            <li><Link to="about" smooth={true} duration={500} offset={-100} className="link">About</Link></li>
+            <li><Link to="projects" smooth={true} duration={500} offset={-100} className="link">Projects</Link></li>
           </ul>
   
           <div className="flex mx-6 gap-8">
-            <Link to="https://github.com" target="_blank" className="button text-base border px-2 py-1 rounded-lg">Resume</Link>
-            <Link to="https://github.com" target="_blank" className="button text-base border px-2 py-1 rounded-lg">Github</Link>
+            {/* <Link to="projects" smooth={true} duration={500} offset={-100} className="button text-base border px-2 py-1 rounded-lg cursor-pointer">Say Hello</Link> */}
+            <a href="https://github.com" target="_blank" className="button text-base border px-2 py-1 rounded-lg cursor-pointer">Github</a>
           </div>
         </div>
       </nav>
